@@ -20,13 +20,13 @@ def keep_alive():
     t.start()
 
 # --- Discord & WhatsApp Configuration ---
-BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-TARGET_CHANNEL_ID = 123456789012345678  # Your Titan Fury Discord Channel ID
+BOT_TOKEN = os.getenv("MTU1NjE0MDA1OTQyNDQ1NjkxNQ.GONWe6.CnT_2eMeWSXqGVMvkdfmGPpA5712rQ34Hmv6hY")
+TARGET_CHANNEL_ID = 1517790656695898184  # Your Titan Fury Discord Channel ID
 
 # WhatsApp Gateway Details (e.g., UltraMsg / Green-API)
-WHATSAPP_API_URL = os.getenv("WHATSAPP_API_URL")  # e.g., https://api.ultramsg.com/INSTANCE_ID/messages/chat
-WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
-WHATSAPP_GROUP_ID = os.getenv("WHATSAPP_GROUP_ID")  # e.g., 120363xxxxxx@g.us
+WHATSAPP_API_URL = os.getenv("https://7107.api.greenapi.com")  # e.g., https://api.ultramsg.com/INSTANCE_ID/messages/chat
+WHATSAPP_TOKEN = os.getenv("496f3f563cad44a8b328a953c382a80ae2719fdaffdf4ec597")
+WHATSAPP_GROUP_ID = os.getenv("120363410974364515@g.us")  # e.g., 120363xxxxxx@g.us
 
 intents = discord.Intents.default()
 intents.guilds = True
